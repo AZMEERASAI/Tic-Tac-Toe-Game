@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.mdiv{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: antiquewhite;
+    border:3px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px rgba(0,0,5);
+    font-size:8vmin;
+    color: rgb(244, 8, 8);
+}
+#reset{
+    background-color: rgb(8, 8, 245);
+    border: 3px solid black;
+    border-radius: 1rem;
+    color: rgb(5, 246, 110);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#newgame{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 1rem;
+    font-size:1.2rem;
+}
+p{
+    color: rgb(185, 120, 36);
+    font-size: 4vmin;
+}
+.massage-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+};
